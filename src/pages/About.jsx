@@ -64,7 +64,21 @@ const About = () => {
             We make CRM simple
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-gray-600">
-            We believe the value of a modern CRM lies in the ability to help businesses stay organized, know more about their customers, build strong relationships and to make the most of sales opportunities, all while minimizing user input.
+MacTech O.A Nigeria Enterprises – Building Scalable Tech Products That Drive Real-World Impact
+
+Since 2014, MacTech O.A Nigeria Enterprises has been on a mission to solve Africa’s systemic challenges through scalable, product-led digital solutions. Founded and led by Afeez Akinfola Oyinloye—a tech entrepreneur with global academic exposure from the University of East London and Sheffield Hallam University—MacTech has evolved from a local IT startup into a trusted innovation company powering mobility, civic systems, and enterprise growth across Nigeria.
+
+Our flagship product, WakaForMe Ride, launched in 2021, is the first ride-hailing and logistics app in Osun State. It has revolutionized local transportation with real-time route optimization, digital payments, and driver onboarding systems that have empowered over 500 drivers and logistics riders. Its companion platform, WakaForMe Errands, enables SMEs and individuals to send and receive items affordably and reliably, with 20% improved delivery efficiency. These platforms collectively serve thousands of users and stand as proof of our ability to build high-impact, people-focused products.
+
+We’ve also developed bespoke SaaS tools, cloud-based APIs, and enterprise web applications for over 300 clients across government, fintech, education, and the informal sector. MacTech is not just a service provider—we are product creators. Our in-house dashboards, biometric payroll systems (as implemented in Osun State, saving ₦750 million), and analytics-driven platforms help institutions reduce fraud, improve service delivery, and unlock new efficiencies.
+
+At our core, we invest in building for scale and sustainability. Through the MacTech Tech Academy, we’ve trained more than 500 young Nigerians in product development, software engineering, and cloud services—ensuring a pipeline of talent that can power the next wave of African innovation.
+
+Our technology stack spans AI, cloud computing, cybersecurity, mobility solutions, and API integrations, all built with a clear vision: to create scalable products that generate economic value and solve deep-rooted challenges.
+
+With a founder who blends hands-on tech experience and business leadership, and a team grounded in user-focused design and agile delivery, MacTech O.A Nigeria Enterprises is more than a tech company—we are building Africa’s digital future, one product at a time.
+
+Join us where innovation meets scale.
           </p>
           <div className="mt-10">
             <img className="rounded-lg shadow-md w-full" src={bgAbout} alt="Modern office interior" />
@@ -76,25 +90,25 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div className="lg:sticky top-8">
               <h2 className="text-4xl font-bold text-gray-900 leading-tight">
-                Simplifying CRM since 2009
+                Simplifying CRM since 2014
               </h2>
             </div>
             <div className="space-y-6 text-gray-600 text-base">
               <p>
-                Capsule was launched following the founders’ frustration with existing CRM services that were either overly simplistic or far too complex for most businesses.
+                MacTech was launched following the founders’ frustration with existing CRM services that were either overly simplistic or far too complex for most businesses.
               </p>
               <p>
-                We built Capsule to deliver on these values and today Capsule is used by thousands of businesses of all sizes all over the world.
+                We built MacTech to deliver on these values and today MacTech is used by thousands of businesses of all sizes all over the world.
               </p>
               <p>
-                We're based in Manchester, United Kingdom, a city with a creative heart that was founded on science and industry and the birthplace of the modern computer.
+                We're based in Osogbo, Nigeria, a city with a creative heart that was founded on science and industry and the birthplace of the modern computer.
               </p>
             </div>
           </div>
           <div className="mt-16 pt-8 border-t border-gray-200 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
               <p className="text-xs text-gray-500">Headquarters</p>
-              <p className="mt-1 font-semibold text-gray-800">Manchester, UK</p>
+              <p className="mt-1 font-semibold text-gray-800">Osogbo, Nigeria</p>
             </div>
             <div>
               <p className="text-xs text-gray-500">Established</p>
