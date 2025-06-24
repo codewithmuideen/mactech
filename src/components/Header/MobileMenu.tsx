@@ -86,12 +86,12 @@ const MobileMenu = ({ isOpen, items, onClose }: MobileMenuProps) => {
 
               <hr className="my-4" />
 
-              <a href="/login" className="text-lg font-semibold text-brand-dark">
+              {/* <a href="/login" className="text-lg font-semibold text-brand-dark">
                 Log In
-              </a>
-              <button className="w-full bg-brand-blue text-white py-3 mt-4 rounded-md font-bold text-lg">
+              </a> */}
+              {/* <button className="w-full bg-brand-blue text-white py-3 mt-4 rounded-md font-bold text-lg">
                 Try Free
-              </button>
+              </button> */}
             </nav>
           </motion.div>
         </motion.div>
