@@ -58,72 +58,66 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         
         {/* === Hero Section === */}
-        <section className="text-center">
-          <p className="text-sm font-semibold text-gray-600 tracking-wide">About MacTech</p>
-          <h1 className="mt-2 text-4xl sm:text-5xl font-bold text-gray-900">
-            We make CRM simple
-          </h1>
-          <p className="mt-4 max-w-3xl mx-auto text-lg text-gray-600">
-MacTech O.A Nigeria Enterprises – Building Scalable Tech Products That Drive Real-World Impact
-
-Since 2014, MacTech O.A Nigeria Enterprises has been on a mission to solve Africa’s systemic challenges through scalable, product-led digital solutions. Founded and led by Afeez Akinfola Oyinloye—a tech entrepreneur with global academic exposure from the University of East London and Sheffield Hallam University—MacTech has evolved from a local IT startup into a trusted innovation company powering mobility, civic systems, and enterprise growth across Nigeria.
-
-Our flagship product, WakaForMe Ride, launched in 2021, is the first ride-hailing and logistics app in Osun State. It has revolutionized local transportation with real-time route optimization, digital payments, and driver onboarding systems that have empowered over 500 drivers and logistics riders. Its companion platform, WakaForMe Errands, enables SMEs and individuals to send and receive items affordably and reliably, with 20% improved delivery efficiency. These platforms collectively serve thousands of users and stand as proof of our ability to build high-impact, people-focused products.
-
-We’ve also developed bespoke SaaS tools, cloud-based APIs, and enterprise web applications for over 300 clients across government, fintech, education, and the informal sector. MacTech is not just a service provider—we are product creators. Our in-house dashboards, biometric payroll systems (as implemented in Osun State, saving ₦750 million), and analytics-driven platforms help institutions reduce fraud, improve service delivery, and unlock new efficiencies.
-
-At our core, we invest in building for scale and sustainability. Through the MacTech Tech Academy, we’ve trained more than 500 young Nigerians in product development, software engineering, and cloud services—ensuring a pipeline of talent that can power the next wave of African innovation.
-
-Our technology stack spans AI, cloud computing, cybersecurity, mobility solutions, and API integrations, all built with a clear vision: to create scalable products that generate economic value and solve deep-rooted challenges.
-
-With a founder who blends hands-on tech experience and business leadership, and a team grounded in user-focused design and agile delivery, MacTech O.A Nigeria Enterprises is more than a tech company—we are building Africa’s digital future, one product at a time.
-
-Join us where innovation meets scale.
+        <section>
+          <p className="text-sm font-semibold tracking-wide text-gray-600 text-center">
+            About MacTech
           </p>
+          <h1 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl text-center">
+            MacTech O.A Nigeria Enterprises
+          </h1>
+
+          {/* — Copy — */}
+          <div className="mt-6 space-y-4 text-lg text-left text-gray-600 [&>p]:max-w-3xl [&>p]:mx-auto">
+            <p>
+              <strong>MacTech O.A Nigeria Enterprises</strong> builds scalable tech
+              products that create real-world impact. Since 2014 we have tackled
+              Africa’s systemic challenges with product-led digital solutions.
+            </p>
+            <p>
+              Founded by <em>Afeez Akinfola Oyinloye</em>—a tech entrepreneur with
+              degrees from the University of East London and Sheffield Hallam
+              University—MacTech has grown from a local start-up into a trusted
+              innovation partner powering mobility, civic systems, and enterprise
+              growth nationwide.
+            </p>
+            <p>
+              Our flagship <strong>WakaForMe Ride</strong> (2021) is Osun State’s
+              first ride-hailing & logistics app, empowering <span className="font-semibold">500+ </span>
+              drivers with real-time route optimisation and digital payments.
+              Companion platform <strong>WakaForMe Errands</strong> boosts delivery
+              efficiency by <span className="font-semibold">20 %</span> for SMEs and individuals.
+            </p>
+            <p>
+              We’ve also shipped bespoke SaaS tools, cloud APIs, and enterprise
+              web apps for <span className="font-semibold">300+ </span> clients across government,
+              fintech, education, and the informal sector—saving Osun State
+              ₦750 million through our biometric payroll system alone.
+            </p>
+            <p>
+              Through the <strong>MacTech Tech Academy</strong>, we’ve trained
+              <span className="font-semibold"> 500+ </span> young Nigerians in software engineering,
+              product development, and cloud services—fueling Africa’s next
+              generation of tech talent.
+            </p>
+            <p>
+              Our stack—AI, cloud computing, cybersecurity, mobility, and
+              API integrations—is built for scale and sustainability. Together
+              we are shaping Africa’s digital future, one product at a time.
+            </p>
+            <p className="font-semibold">
+              Join us where innovation meets scale.
+            </p>
+          </div>
+
           <div className="mt-10">
-            <img className="rounded-lg shadow-md w-full" src={bgAbout} alt="Modern office interior" />
+            <img
+              src={bgAbout}
+              alt="Modern office interior"
+              className="w-full rounded-lg shadow-md"
+            />
           </div>
         </section>
 
-        {/* === Simplifying CRM Section === */}
-        <section className="mt-24">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            <div className="lg:sticky top-8">
-              <h2 className="text-4xl font-bold text-gray-900 leading-tight">
-                Simplifying CRM since 2014
-              </h2>
-            </div>
-            <div className="space-y-6 text-gray-600 text-base">
-              <p>
-                MacTech was launched following the founders’ frustration with existing CRM services that were either overly simplistic or far too complex for most businesses.
-              </p>
-              <p>
-                We built MacTech to deliver on these values and today MacTech is used by thousands of businesses of all sizes all over the world.
-              </p>
-              <p>
-                We're based in Osogbo, Nigeria, a city with a creative heart that was founded on science and industry and the birthplace of the modern computer.
-              </p>
-            </div>
-          </div>
-          <div className="mt-16 pt-8 border-t border-gray-200 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <p className="text-xs text-gray-500">Headquarters</p>
-              <p className="mt-1 font-semibold text-gray-800">Osogbo, Nigeria</p>
-            </div>
-            <div>
-              <p className="text-xs text-gray-500">Established</p>
-              <p className="mt-1 font-semibold text-gray-800">2009</p>
-            </div>
-            <div>
-              <p className="text-xs text-gray-500">Team Members</p>
-              <p className="mt-1 font-semibold text-gray-800">51</p>
-            </div>
-            <div>
-              <p className="text-xs text-gray-500">Customers</p>
-              <p className="mt-1 font-semibold text-gray-800">10,000+</p>
-            </div>
-          </div>
-        </section>
 
         {/* === Values Section === */}
         <section className="mt-24">
